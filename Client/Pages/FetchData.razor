@@ -31,7 +31,15 @@ else
             <td colspan="4">Footer</td>
         </Footer>
     </Grid>
+
+    <ListView Title="Forecasts summaries" Items="@forecasts" Context="forecast">
+        <ItemTemplate >
+            <span>@forecast.Summary</span>
+        </ItemTemplate>
+    </ListView>
 }
+
+
 
 @code {
     private WeatherForecast[]? forecasts;

@@ -9,6 +9,9 @@ namespace Components.Advanced.Client.Shared
     public partial class ListView<TItem>
     {
         [Parameter]
+        public string Title { get; set; } = default!;
+        
+        [Parameter]
         public RenderFragment<TItem> ItemTemplate { get; set; } = default!;
 
         [Parameter]
