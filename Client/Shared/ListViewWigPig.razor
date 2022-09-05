@@ -1,0 +1,18 @@
+@typeparam TItem
+
+<h1>@Title</h1>
+@if (ListTemplate is null) {
+    <ul>
+        @foreach (var item in Items) {
+            <li>@ItemTemplate(item)</li>
+        }
+    </ul>
+} else {
+    @ListTemplate(
+        @:@{
+            foreach(var item in Items) {
+                @ItemTemplate(item)
+            }
+        }
+    )
+}
