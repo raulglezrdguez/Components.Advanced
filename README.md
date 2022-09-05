@@ -12,7 +12,7 @@ dotnet new blazorwasm -o Components.Advanced --hosted
 
 ## To develop the project:
 
-dotnet watch --project Client
+dotnet watch --project Server
 
 ## Testing
 
