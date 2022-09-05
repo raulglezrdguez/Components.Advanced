@@ -17,3 +17,4 @@ dotnet watch --project Server
 ## Testing
 
 - Templated Component
+  - Grid Component created: Client.Shared.Grid
