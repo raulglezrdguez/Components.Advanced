@@ -19,4 +19,4 @@ dotnet watch --project Server
 - Templated Component
   - Grid Component created: Client.Shared.Grid
   - ListView Component created: Client.Shared.ListView
-  - ListViewWigPig Component for test RenderFragment<RenderFragment>: Client.Shared.ListViewWigPig
+  - ListViewWigPig Component for test RenderFragment&gt;RenderFragment&lt;: Client.Shared.ListViewWigPig
