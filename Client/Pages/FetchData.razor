@@ -24,7 +24,14 @@ else
         <Row>
             <td>@forecast.Date.ToShortDateString()</td>
             <td>@forecast.TemperatureC</td>
-            <td>@forecast.TemperatureF</td>
+            <ErrorBoundary>
+                <ChildContent>
+                    <td>@forecast.TemperatureF</td>
+                </ChildContent>
+                <ErrorContent>
+                    <td style="color: red;">error!!</td>
+                </ErrorContent>
+            </ErrorBoundary>
             <td>@forecast.Summary</td>
         </Row>
         <Footer>
