@@ -1,0 +1,14 @@
+@typeparam TItem
+
+<table>
+    <thead><tr>@Header</tr></thead>
+    <tbody>
+        @foreach (var item in Items)
+        {
+            <tr>@Row(item)</tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>@Footer</tr>
+    </tfoot>
+</table>

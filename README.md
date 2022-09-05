@@ -13,3 +13,7 @@ dotnet new blazorwasm -o Components.Advanced --hosted
 ## To develop the project:
 
 dotnet watch --project Client
+
+## Testing
+
+- Templated Component
