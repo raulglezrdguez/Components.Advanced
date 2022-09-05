@@ -37,6 +37,18 @@ else
             @forecastTemplate(forecast)
         </ItemTemplate>
     </ListView>
+
+    <ListViewWigPig Title="Forecasts sumaries with Wig-pig" 
+        Items="@forecasts" Context="forecast">
+        <ListTemplate Context="innerTemplate">
+            <ol>
+                @innerTemplate
+            </ol>
+        </ListTemplate>
+        <ItemTemplate>
+            <li><span>@forecast.Summary</span></li>
+        </ItemTemplate>
+    </ListViewWigPig>
 }
 
 
