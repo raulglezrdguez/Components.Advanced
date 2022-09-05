@@ -20,3 +20,4 @@ dotnet watch --project Server
   - Grid Component created: Client.Shared.Grid
   - ListView Component created: Client.Shared.ListView
   - ListViewWigPig Component for test RenderFragment&lt;RenderFragment&gt;: Client.Shared.ListViewWigPig
+- Blazor Error Boundaries: In FetchData.razor with forecast.TemperatureF
