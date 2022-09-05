@@ -18,3 +18,4 @@ dotnet watch --project Server
 
 - Templated Component
   - Grid Component created: Client.Shared.Grid
+  - ListView Component created: Client.Shared.ListView
